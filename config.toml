@@ -1,0 +1,16 @@
+# MDA Configuration File
+# Pairs are validated at runtime against both exchanges on startup.
+
+[pair]
+# Hyperliquid coin symbol (e.g. "BTC", "ETH", "SOL")
+hl_symbol = "BTC"
+
+# Paradex market symbol (e.g. "BTC-USD-PERP", "ETH-USD-PERP")
+pdx_symbol = "BTC-USD-PERP"
+
+[display]
+# Number of levels to show in the merged order book (max 10)
+depth = 10
+
+# UI refresh rate in milliseconds
+tick_ms = 100
